@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vocabulary">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="176dp"
+        android:text="SELECT VOCABULARY LEVEL"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="415dp"
+        android:layout_height="180dp"
+        android:text="Beginner"
+        android:textSize="34sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="409dp"
+        android:layout_height="180dp"
+        android:text="INTERMIDIATE"
+        android:textSize="34sp"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="415dp"
+        android:layout_height="180dp"
+        android:text="ADVANCED"
+        android:textSize="34sp"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        tools:layout_editor_absoluteX="-2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
