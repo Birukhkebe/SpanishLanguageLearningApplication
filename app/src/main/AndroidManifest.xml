@@ -14,6 +14,9 @@
         android:theme="@style/Theme.SpanishLanguageLearningApplication"
         tools:targetApi="31">
         <activity
+            android:name=".WordType"
+            android:exported="false" />
+        <activity
             android:name=".VocabularyLesson"
             android:exported="false" />
         <activity

@@ -9,7 +9,6 @@ import android.widget.Button;
 
 public class Vocabulary extends AppCompatActivity {
 
-    // Code Biruk
     Button button3;
 
     @Override
@@ -17,14 +16,12 @@ public class Vocabulary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vocabulary);
 
-        //Code Biruk
-        button3 = findViewById(R.id.button3);
-
+        button3 = findViewById(R.id.beginnerButton);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Vocabulary.this, VocabularyLesson.class);
+                Intent intent = new Intent(Vocabulary.this, WordType.class);
                 startActivity(intent);
             }
         });

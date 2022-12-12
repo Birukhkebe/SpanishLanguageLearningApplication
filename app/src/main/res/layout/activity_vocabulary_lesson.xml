@@ -8,9 +8,9 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="320dp"
         android:text="SPANISH EQUIVALENT"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
@@ -23,51 +23,53 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="120dp"
         android:text="ENGLISH WORD"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/englishWord"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginTop="312dp"
+        android:layout_marginTop="220dp"
         android:text="Press next to start"
         android:textAlignment="center"
         android:textSize="35sp"
         android:textStyle="bold|italic"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="409dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="110dp"
-        android:text="BEGINEER LEVEL WORDS"
-        android:textAlignment="center"
-        android:textColor="#673AB7"
-        android:textSize="34sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="60dp"
+        android:text="BEGINEER LEVEL WORDS"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView11"
-        android:layout_width="409dp"
-        android:layout_height="110dp"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
         android:text="VOCABULARY LESSON"
         android:textAlignment="center"
         android:textColor="#673AB7"
@@ -81,16 +83,16 @@
 
     <TextView
         android:id="@+id/spanishWord"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="420dp"
         android:text="Oprima next para empezar"
         android:textAlignment="center"
         android:textSize="35sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,7 +101,7 @@
         android:layout_width="190dp"
         android:layout_height="105dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="629dp"
+        android:layout_marginTop="520dp"
         android:text="PREVIOUS"
         android:textSize="26sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,11 +111,22 @@
         android:id="@+id/nextButton"
         android:layout_width="190dp"
         android:layout_height="105dp"
-        android:layout_marginTop="629dp"
+        android:layout_marginTop="520dp"
         android:layout_marginEnd="1dp"
         android:text="NEXT"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TAKE A QUIZ"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/previousButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
