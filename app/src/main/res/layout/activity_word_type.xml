@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordType">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="181dp"
+        android:text="SELECT WORD TYPE"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/greetingsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/greetingsButton"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:text="Greetings"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/travelButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/travelButton"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:text="Travel"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/holidayButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/holidayButton"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        android:text="Holiday"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/numbersButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/numbersButton"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        android:text="numbers"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/mixtureButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mixtureButton"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        android:text="MIXTURE"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
